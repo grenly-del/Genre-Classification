@@ -3,3 +3,5 @@
 models/model_MLP.pkl
 
 __pycache__
+
+.git
