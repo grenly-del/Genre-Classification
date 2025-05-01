@@ -12,7 +12,7 @@ Aplikasi ini adalah aplikasi berbasis website yang bertujuan untuk melakukan kla
 - **Logistic Regression**: Model klasifikasi yang digunakan untuk melakukan prediksi genre film.
 - **MLPClassifier**: Model klasifikasi berbasis Neural Network yang digunakan untuk meningkatkan akurasi prediksi genre film.
 
-> **Note**: Model **MLPClassifier** tidak saya ikutkan dalam push ke **GitHub** karena model ini cukup besar dan melewati batas kapasitas GitHub.
+**Note**: Model **MLPClassifier** tidak saya ikutkan dalam push ke **GitHub** karena model ini cukup besar dan melewati batas kapasitas GitHub.
 
 ---
 
