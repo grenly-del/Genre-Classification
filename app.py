@@ -28,18 +28,13 @@ def hello_world():
             genre_string = classify_genre_with_llm(cleaned, allowed_genres)
             result = genre_string
             print(f"result LLM : {result}") 
-        elif model_choice == "MLP":
-            predicted = check_genres(cleaned, 'model_MLP', 'vectorizer')
-            if predicted and isinstance(predicted[0], (list, tuple)):
-                    result = predicted[0]
-            print(f"result TDF : {result}")
         else:
             predicted = check_genres(cleaned, 'model', 'vectorizer2')
             if predicted and isinstance(predicted[0], (list, tuple)):
                     result = predicted[0]
             print(f"result TDF : {result}")
 
-    return render_template("hello.html", genres=result, status=status)
+    return render_template("hello.html", genres=result, status=status) 
 
 if __name__ == '__main__':  
     app.run(debug=True, port=3301)  
